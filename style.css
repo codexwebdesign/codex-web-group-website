@@ -1,0 +1,198 @@
+* {
+  background-color: rgb(19, 17, 27);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: arial;
+}
+
+.shell {
+  height: 500px;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 525px;
+  margin-left: 35px;
+  height: 500px;
+}
+
+.heading {
+  margin-top: -7px;
+  font-size: 66px;
+}
+
+.summary {
+  width: 300px;
+  margin: 34px 0;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.hire-me-div {
+  margin-bottom: 20px;
+}
+
+.hire-me {
+  height: 50px;
+  width: 190px;
+  border-radius: 7px;
+  background-color: rgb(19, 17, 27);
+  border: 3px solid rgb(255, 83, 246);
+  color: rgb(255, 83, 246);;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hire-me:hover {
+  background-color: rgb(255, 83, 246);
+  border-color: rgb(255, 162, 232);
+  color: white;
+  transition: .5s;
+}
+
+.hire-me:not(:hover) {
+  transition: .7s;
+}
+
+.view-services {
+  height: 50px;
+  width: 190px;
+  border: 3px solid rgb(29,161,242);
+  color: rgb(29,161,242);
+  background-color: rgb(19, 17, 27);
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.view-services:hover {
+  background-color: rgb(29,161,242);
+  border: 3px solid rgb(121, 201, 255);
+  color: white;
+  transition: .5s;
+}
+
+.view-services:not(:hover) {
+  transition: .5s;
+}
+
+.right {
+  max-width: 600px;
+  width: 370px;
+  height: 500px;
+}
+
+.click {
+  height: 100px;
+  width: 368px;
+  margin-bottom: 10px;
+}
+
+.right-bottom {
+  margin-top: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 300px;
+  width: 300px;
+  border: 4px solid rgb(19, 17, 27);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  height: 330px;
+  width: 330px;
+  box-shadow: 0px -3px 90px rgba(0,0,0,1);
+  transition: 1s;
+  border: 4px solid rgb(29,161,242);
+}
+
+.logo:not(:hover) {
+  transition: .8s;
+}
+
+.bottom {
+  height: 100px;
+  width: 600px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+i {
+  padding: 2px;
+  color: gray;
+}
+
+i:hover {
+  transition: .5s;
+  color: white;
+}
+
+i:not(:hover) {
+  transition: .5s;
+}
+
+.github,
+.youtube,
+.facebook,
+.linkedin {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  border: 2px solid rgb(19, 17, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.git-hub {
+  padding-right: 1px;
+}
+
+.facebook {
+  padding-top: 4px;
+  padding-right: 6px;
+}
+
+.linkedin {
+  padding-left: 1px;
+}
+
+.github:hover,
+.youtube:hover,
+.facebook:hover,
+.linkedin:hover {
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: 1s;
+}
+
+.github:not(:hover),
+.youtube:not(:hover),
+.facebook:not(:hover),
+.linkedin:not(:hover) {
+  border-radius: 5px;
+  transition: .5s;
+}
+
