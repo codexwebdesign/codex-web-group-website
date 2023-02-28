@@ -132,3 +132,12 @@
 i {
   color: rgb(85, 85, 85)
 }
+
+i:hover {
+  transition: .75s;
+  color: black;
+}
+
+i:not(:hover) {
+  transition: .5s;
+}
