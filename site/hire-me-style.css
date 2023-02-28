@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: arial;
+}
+
+/* ---------- header ----------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(13, 65, 100);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.192);
+}
+
+.home-link {
+  background-color: rgb(13, 65, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 125px;
+}
+
+.logo {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(13, 65, 100);
+}
+
+.services-link,
+.my-work-link {
+  background-color:rgb(13, 65, 100);
+}
+
+.services,
+.my-work {
+  background-color: rgb(13, 65, 100);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 3px solid rgb(13, 65, 100);
+  border-right: 3px solid rgb(13, 65, 100);
+}
+
+.services:hover,
+.my-work:hover {
+  border-left: 3px solid rgb(255, 255, 255);
+  border-right: 3px solid rgb(255, 255, 255);
+  transition: .75s;
+}
+
+.services:not(:hover),
+.my-work:not(:hover) {
+  transition: .5s;
+}
+
+.my-work {
+  margin-right: 125px;
+}
+
+/* ---------- body one ----------*/
+
+.body-one {
+  background-color: rgb(0, 207, 173);
+  height: 450px;
+  text-align: center;
+}
+
+.me {
+  height: 125px;
+  border-radius: 75px;
+  margin-top: 50px;
+  border: 1px solid rgb(160, 160, 160);
+  box-shadow: 0px 1px 3px rgba(0,0,0,.5);
+}
+
+.title {
+  background-color:rgb(0, 207, 173);
+  color:rgb(0, 0, 0);
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description-one,
+.description-two {
+  background-color:rgb(0, 207, 173);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.phone,
+.email {
+  margin-top: 15px;
+  background-color:rgba(0, 0, 0, 0.74);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 18px;
+  height: 32px;
+  border: 1px solid rgba(0, 143, 124, 0.342);
+}
+
+.phone {
+  margin-right: 25px;
+}
+
+/* ---------- footer ----------*/
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 75px;
+}
+
+i {
+  color: rgb(85, 85, 85)
+}
