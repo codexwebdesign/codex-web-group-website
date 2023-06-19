@@ -195,3 +195,63 @@ i:not(:hover) {
   border-radius: 5px;
   transition: .5s;
 }
+
+/* CSS code before the media queries... */
+
+/* Styles for tablet portrait up to desktop */
+@media (min-width: 601px) and (max-width: 992px) {
+  .shell {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .left, .right {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .summary {
+    width: 80%;
+    text-align: center;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .click, .logo {
+    width: 70%;
+    height: auto;
+  }
+
+  .bottom {
+    width: 80%;
+  }
+}
+
+/* Styles for desktop */
+@media (min-width: 993px) {
+  .shell {
+    width: 80%;
+  }
+
+  .left, .right {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .bottom {
+    width: 80%;
+  }
+}
