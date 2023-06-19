@@ -247,29 +247,78 @@ i:not(:hover) {
   transition: .5s;
 }
 
+/* CSS */
 
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
 
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
+/* Navigation */
+.header a {
+  margin-left: 10px;
+}
 
+/* Body-One */
+.body-one {
+  text-align: center;
+  padding: 20px;
+}
 
+/* Body-Two */
+.body-two {
+  text-align: center;
+  padding: 20px;
+}
 
+/* Footer */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
+.footer-links a {
+  margin: 0 10px;
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjust Header for smaller screens */
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  /* Adjust navigation for smaller screens */
+  .header a {
+    margin: 10px 0;
+  }
 
+  /* Adjust Body-One for smaller screens */
+  .body-one {
+    padding: 10px;
+  }
 
+  /* Adjust Body-Two for smaller screens */
+  .body-two {
+    padding: 10px;
+  }
 
+  /* Adjust Footer for smaller screens */
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .footer-links a {
+    margin: 10px 0;
+  }
+}
