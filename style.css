@@ -199,7 +199,7 @@ i:not(:hover) {
 /* CSS code before the media queries... */
 
 /* Styles for tablet portrait up to desktop */
-@media (min-width: 601px) and (max-width: 992px) {
+@media (min-width: 429px) and (max-width: 992px) {
   .shell {
     flex-direction: column;
     align-items: center;
@@ -258,7 +258,7 @@ i:not(:hover) {
 /* CSS code before the media queries... */
 
 /* Styles for phones */
-@media (max-width: 600px) {
+@media (max-width: 428px) {
   .shell {
     flex-direction: column;
     align-items: center;
