@@ -146,3 +146,68 @@ i:hover {
 i:not(:hover) {
   transition: .5s;
 }
+
+/* Add this at the top of your existing CSS */
+@media only screen and (max-width: 600px) {
+
+  /* ----- header ----- */
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .home-link,
+  .my-work {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header-links {
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  /* ----- body-one ----- */
+
+  .body-one {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .me {
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .title {
+    margin-top: 15px;
+  }
+
+  .description-one,
+  .description-two {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .phone,
+  .email {
+    height: 45px;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .phone {
+    margin-right: 0;
+  }
+
+  /* ----- footer ----- */
+
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
