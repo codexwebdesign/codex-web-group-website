@@ -119,7 +119,7 @@ a {
 .header-nav-container {
   margin-block: 1.5em;
   margin-inline: auto;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 500px;
 }
 
