@@ -113,7 +113,7 @@ a {
   padding: 1.5em;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 .header-nav-container {
@@ -177,6 +177,10 @@ a {
   }
 
 /* style */
+
+  .splash-section {
+    min-height: 100vh;
+  }
 
   .splash-header-container {
     flex-direction: row;
