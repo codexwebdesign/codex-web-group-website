@@ -1,0 +1,249 @@
+
+/* ======== global ======== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.page-header {
+  flex-direction: column;
+}
+
+.splash-section{
+  opacity: .9;
+}
+
+
+
+/* ======== typography ======== */
+
+
+
+/* global-typography */
+
+body {
+  color: white;
+  font-family: 'Jost', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* splash-section-typography */
+
+.splash-logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.header-nav-links {
+  font-size: .9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: .8;
+  border-bottom: 2px solid transparent;
+  transition: .5s;
+}
+
+.header-nav-links:hover,
+.header-nav-links:focus {
+  opacity: 1;
+  border-bottom: 2px solid #ffffff;
+}
+
+.current-page {
+  font-weight: 400;
+  opacity: 1;
+  border-bottom: 2px solid #ffffff;
+}
+
+.splash-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.thin-txt {
+  font-weight: 200;
+}
+
+.splash-txt {
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+
+
+/* ======== style ======== */
+
+
+
+/* splash-section */
+
+.splash-section {
+  background-image: url(./img/splash-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #000000a9;
+  background-blend-mode: multiply;
+  padding: 1.5em;
+}
+
+.header-nav-container {
+  margin-block: 1.5em;
+  margin-inline: auto;
+  justify-content: space-evenly;
+  max-width: 500px;
+  gap: 1.25em;
+}
+
+.splash-title {
+  margin-top: 2.5em;
+}
+
+.splash-txt {
+  margin-left: .25em;
+  margin-top: .2em;
+}
+
+.splash-btn {
+  display: inline-block;
+  margin-bottom: 7em;
+  margin-left: .2em;
+  margin-top: .5em;
+  padding: .5em 1.5em;
+  border: 2px solid #ffffff;
+  transition: .5s;
+}
+
+.splash-btn:hover,
+.splash-btn:focus {
+  background-color: #000000a9;
+}
+
+.splash-social-link-container {
+  gap: 1em;
+}
+
+.splash-icon {
+  opacity: .7;
+  transition: .5s;
+}
+
+.splash-icon:hover,
+.splash-icon:focus {
+  opacity: 1;
+}
+
+
+
+/* ======== media-queries ======== */
+
+
+
+@media (min-width: 700px) {
+
+/* typography */
+
+  .splash-logo {
+    font-size: 2rem;
+  }
+
+  .header-nav-links {
+    font-size: 1rem;
+  }
+
+  .splash-title {
+    font-size: 5rem;
+  }
+
+  .splash-txt {
+    font-size: 1.75rem;
+  }
+
+/* style */
+
+  .page-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav-links {
+    margin-inline: 1.5em;
+  }
+
+  .header-nav-container {
+    margin-block: 0;
+  }
+
+  .splash-title {
+    margin-left: .5em;
+    margin-top: 3.5em;
+  }
+
+  .splash-txt {
+    margin-left: 1.6em;
+  }
+
+  .splash-btn {
+    margin-left: 2.8em;
+    margin-bottom: 15em;
+    padding: 1em 3em;
+  }
+
+  .splash-social-link-container {
+    gap: 2em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
