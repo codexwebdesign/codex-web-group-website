@@ -118,7 +118,7 @@ a {
 }
 
 .splash-title {
-  margin-top: 2.5em;
+  margin-top: 5em;
 }
 
 .splash-txt {
@@ -128,7 +128,7 @@ a {
 
 .splash-btn {
   display: inline-block;
-  margin-bottom: 7em;
+  margin-bottom: 12em;
   margin-left: .2em;
   margin-top: .5em;
   padding: .5em 1.5em;
