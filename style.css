@@ -30,7 +30,7 @@ a {
 
 
 
-/* global-typography */
+/* global */
 
 body {
   color: white;
@@ -49,7 +49,7 @@ a {
   text-transform: uppercase;
 }
 
-/* splash-section-typography */
+/* splash */
 
 .splash-logo {
   font-size: 2rem;
@@ -96,6 +96,38 @@ a {
   font-size: 1.5rem;
 }
 
+/* service */
+
+.services-title,
+.services-sub-title {
+  text-align: center;
+}
+
+.services-title {
+  font-size: 3rem;
+  color: #e7e7e7;
+}
+
+.services-summary {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.services-sub-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.article-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.services-btn {
+  font-size: 1.5rem;
+}
 
 
 /* ======== style ======== */
@@ -150,7 +182,79 @@ a {
   opacity: 1;
 }
 
+/* services */
 
+.services-section {
+  color: #000000;
+  flex-direction: column;
+  padding: 4em 1em;
+}
+
+.services-sub-title {
+  margin-top: -1.4em;
+}
+
+.services-summary {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block: 2em 2.5em;
+  padding: .5em;
+}
+
+.services-container {
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.service-article {
+  width: 90%;
+  max-width: 350px;
+  background-color: #ffffff;
+}
+
+.article-img-background {
+  height: 300px;
+  flex-direction: column;
+}
+
+.dev-img {
+  background-image: url(./img/dev-img.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+.design-img {
+  background-image: url(./img/design-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.article-title-container {
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-top: auto;
+  padding: .5em 2em .5em .75em;
+}
+
+.article-txt {
+  padding: 1em 1em;
+}
+
+.services-btn {
+  border: 2px solid #000000;
+  gap: .5em;
+  margin-inline: auto;
+  margin-top: .5em;
+  padding: .5em 1.5em;
+  transition: .5s;
+  color: #000000;
+}
+
+.services-btn:hover,
+.services-btn:focus {
+  background-color: #e2e2e2;
+}
 
 /* ======== media-queries ======== */
 
@@ -158,7 +262,9 @@ a {
 
 @media (min-width: 750px) {
 
-/* typography */
+/* ======== typography ======== */
+
+/* splash */
 
   .splash-logo {
     font-size: 2rem;
@@ -176,7 +282,26 @@ a {
     font-size: 1rem;
   }
 
-/* style */
+/* services */
+
+  .services-title {
+    font-size: 5rem;
+  }
+
+  .services-sub-title {
+    font-size: 2rem;
+  }
+
+  .article-txt {
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+
+
+/* ======== style ======== */
+
+/* splash */
 
   .splash-section {
     min-height: 100vh;
@@ -204,6 +329,33 @@ a {
 
   .splash-footer-container {
     gap: 2em;
+  }
+
+/* services */
+
+  .services-section {
+    background-image: url(./img/services-backgound.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .services-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .services-sub-title {
+    margin-top: -1.6em;
+  }
+
+  .article-img-background {
+    height: 400px;
+  }
+
+  .services-btn {
+    background-color: #ffffff;
+    margin-top: 1.5em;
   }
 
 }
