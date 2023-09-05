@@ -249,6 +249,7 @@ a {
   padding: .5em 1.5em;
   transition: .5s;
   color: #000000;
+  align-items: center;
 }
 
 .services-btn:hover,
