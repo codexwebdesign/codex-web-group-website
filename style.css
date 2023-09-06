@@ -208,13 +208,13 @@ a {
 }
 
 .service-article {
-  width: 90%;
+  width: 100%;
   max-width: 350px;
   background-color: #ffffff;
 }
 
 .article-img-background {
-  height: 300px;
+  height: 350px;
   flex-direction: column;
 }
 
