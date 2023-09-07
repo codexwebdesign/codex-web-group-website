@@ -1,6 +1,8 @@
 
 /* ======== global ======== */
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -134,6 +136,17 @@ a {
   font-size: 1.5rem;
 }
 
+/* footer */
+
+.footer-section {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+}
+
 
 
 /* ======== style ======== */
@@ -262,6 +275,76 @@ a {
 .services-btn:focus {
   background-color: #f7f7f7;
 }
+
+/* about-us */
+
+/* .about-us-section {
+  background-image: url(./img/about-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #505050;
+  background-blend-mode: multiply;
+  padding: 30em;
+} */
+
+/* footer */
+
+.footer-section {
+  background-image: url(./img/footer-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #414141;
+  background-blend-mode: multiply;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.footer-reach-out-container {
+  flex-direction: column;
+  margin-inline: auto;
+  border-bottom: 1px solid #ffffff3f;
+  padding-bottom: 1em;
+  gap: .5em;
+  opacity: .8;
+}
+
+.gap-container {
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-page-container {
+  padding-block: 2em;
+  flex-direction: column;
+  gap: 1em;
+  border-bottom: 1px solid #ffffff3f;
+  width: 200px;
+  margin-inline: auto;
+}
+
+.footer-page-link-container {
+  flex-direction: column;
+  margin-inline: auto;
+  gap: 1em;
+}
+
+.footer-svg-link-container {
+  margin-top: 1em;
+  margin-inline: auto;
+  gap: 1em;
+}
+
+.footer-page-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-info-container {
+  padding-top: 1em;
+}
+
+
 
 /* ======== media-queries ======== */
 
