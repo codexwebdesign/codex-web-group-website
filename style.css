@@ -254,12 +254,13 @@ a {
   padding: .5em 1.5em;
   transition: .5s;
   color: #000000;
+  background-color: #ffffff;
   align-items: center;
 }
 
 .services-btn:hover,
 .services-btn:focus {
-  background-color: #e2e2e2;
+  background-color: #f7f7f7;
 }
 
 /* ======== media-queries ======== */
@@ -292,10 +293,15 @@ a {
 
   .services-title {
     font-size: 5rem;
+    color: #e4e4e4
   }
 
   .services-sub-title {
     font-size: 2rem;
+  }
+
+  .services-summary {
+    font-size: 1.25rem;
   }
 
 
@@ -336,6 +342,8 @@ a {
 
   .services-section {
     background-image: url(./img/services-backgound.jpg);
+    background-color: #c0c0c0;
+    background-blend-mode: screen;
     background-size: cover;
     background-position: bottom;
   }
@@ -355,9 +363,13 @@ a {
   }
 
   .services-btn {
-    background-color: #ffffff;
     margin-top: 2.25em;
     border: none;
+  }
+  
+  .services-btn:hover,
+  .services-btn:focus {
+    background-color: #f7f7f7af;
   }
 
   .services-txt {
