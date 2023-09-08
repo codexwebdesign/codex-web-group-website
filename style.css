@@ -320,7 +320,7 @@ a {
 }
 
 .footer-page-container {
-  padding-block: 4em;
+  padding-block: 5em;
   flex-direction: column;
   gap: 2em;
   border-bottom: 1px solid #ffffff9a;
@@ -335,7 +335,6 @@ a {
 }
 
 .footer-svg-link-container {
-  margin-top: 1.5em;
   margin-inline: auto;
   gap: 2em;
 }
