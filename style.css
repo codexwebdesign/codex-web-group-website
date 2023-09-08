@@ -143,6 +143,25 @@ a {
   text-align: center;
 }
 
+.footer-chat,
+.footer-page-link,
+.footer-icon {
+  opacity: 1;
+}
+
+.footer-chat:hover,
+.footer-chat:focus,
+.footer-page-link:hover,
+.footer-page-link:focus,
+.footer-icon:hover,
+.footer-icon:focus {
+  opacity: .7;
+}
+
+.current-footer-link {
+  opacity: .7;
+}
+
 .footer-page-link {
   font-size: 1.2rem;
   font-weight: 500;
@@ -298,7 +317,7 @@ a {
   background-image: url(./img/footer-background.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #414141;
+  background-color: #333333;
   background-blend-mode: multiply;
   flex-direction: column;
   padding: 4em 2em;
@@ -310,7 +329,6 @@ a {
   border-bottom: 1px solid #ffffff9a;
   padding-bottom: 2em;
   gap: 1em;
-  opacity: .8;
 }
 
 .gap-container {
@@ -456,6 +474,37 @@ a {
 
   .services-txt {
     padding: 1.25em 1.5em;
+  }
+
+/* footer */
+
+  .footer-reach-out-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: initial;
+    padding-inline: 2em;
+  }
+
+  .footer-page-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: initial;
+    margin-inline: initial;
+    padding-inline: 2em;
+  }
+
+  .footer-page-link-container {
+    flex-direction: row;
+    margin-inline: initial;
+    align-items: center;
+  }
+
+  .footer-svg-link-container {
+    margin-inline: initial;
+  }
+
+  .gap-container {
+    gap: .5em;
   }
 
 }
