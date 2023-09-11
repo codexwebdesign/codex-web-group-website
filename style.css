@@ -346,7 +346,7 @@ a {
 .about-us-container {
   flex-direction: column;
   background-color: #222327;
-  padding: 4em 1em;
+  padding: 4em 1em 2.5em 1em;
   margin-block: 4em 2em;
   max-width: 500px;
   margin-inline: auto;
@@ -378,8 +378,8 @@ a {
 .about-us-btn {
   display: block;
   margin-left: auto;
-  margin-top: 2em;
-  margin-right: 5px;
+  margin-top: 1.5em;
+  margin-right: 20px;
 }
 
 .about-us-btn:hover,
