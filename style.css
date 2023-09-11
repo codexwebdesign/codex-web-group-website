@@ -145,7 +145,7 @@ a {
 
 .about-us-title {
   font-size: 3rem;
-  color: #494949;
+  color: #242424;
 }
 
 .about-us-sub-title {
@@ -182,7 +182,11 @@ a {
 .footer-page-link:hover,
 .footer-page-link:focus,
 .footer-icon:hover,
-.footer-icon:focus {
+.footer-icon:focus,
+.terms-of-service-link:hover,
+.terms-of-service-link:focus,
+.privacy-policy-link:hover,
+.privacy-policy-link:focus {
   opacity: .7;
 }
 
@@ -331,7 +335,7 @@ a {
 /* about-us */
 
 .about-us-section {
-  background-color: #000000;
+  background-color: #030303;
   padding: 4em 1em;
 }
 
@@ -343,7 +347,7 @@ a {
   flex-direction: column;
   background-color: #222327;
   padding: 4em 1em;
-  margin-top: 2em;
+  margin-block: 4em 2em;
   max-width: 500px;
   margin-inline: auto;
 }
@@ -431,6 +435,8 @@ a {
 
 .footer-info-container {
   padding-top: 2em;
+  flex-direction: column;
+  gap: 1em;
 }
 
 
@@ -616,6 +622,13 @@ a {
 
   .gap-container {
     gap: .5em;
+  }
+
+  .footer-info-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 2em;
+    align-content: center;
   }
 
 }
