@@ -34,6 +34,10 @@ a {
   background-image: url(./img/splash-background-services.jpg);
 }
 
+.about-splash {
+  background-image: url(./img/splash-background-about.jpg);
+}
+
 
 /* ======== typography ======== */
 
@@ -56,6 +60,10 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.bold-txt {
+  font-weight: 500;
 }
 
 /* splash */
@@ -92,6 +100,10 @@ a {
   line-height: 1;
 }
 
+.about-us-splash-title {
+  line-height: .9;
+}
+
 .thin-txt {
   font-weight: 200;
 }
@@ -99,6 +111,14 @@ a {
 .splash-txt {
   font-size: 1rem;
   font-weight: 400;
+}
+
+.about-us-splash-txt {
+  line-height: 2.2;
+}
+
+.about-us-splash-sub-txt {
+  font-weight: 300;
 }
 
 .splash-btn {
@@ -234,6 +254,20 @@ a {
   margin-inline: auto;
   justify-content: space-around;
   max-width: 500px;
+}
+
+.about-us-splash-title {
+  border-left: 5px solid #c0c0c0;
+  padding-left: .35em;
+}
+
+.about-us-splash-txt {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.about-us-splash-sub-txt {
+  margin-top: 1em;
 }
 
 .splash-btn {
