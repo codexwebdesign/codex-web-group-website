@@ -26,6 +26,13 @@ a {
   opacity: .9;
 }
 
+.main-splash {
+  background-image: url(./img/splash-background-home.jpg);
+}
+
+.services-splash {
+  background-image: url(./img/splash-background-services.jpg);
+}
 
 
 /* ======== typography ======== */
@@ -212,7 +219,6 @@ a {
 /* splash-section */
 
 .splash-section {
-  background-image: url(./img/splash-background.jpg);
   background-size: cover;
   background-position: center;
   background-color: #000000a9;
@@ -346,23 +352,14 @@ a {
 .about-us-container {
   flex-direction: column;
   background-color: #222327;
-  padding: 4em 1em 2.5em 1em;
+  padding: 3em 1em 2.5em 1em;
   margin-block: 4em 2em;
-  max-width: 500px;
-  margin-inline: auto;
-}
-
-.about-us-article-title {
+  max-width: 475px;
   margin-inline: auto;
 }
 
 .about-us-article-container {
   max-width: 375px;
-  margin-inline: auto;
-}
-
-.about-us-article-txt {
-  margin-top: 1.5em;
   margin-inline: auto;
 }
 
@@ -375,11 +372,22 @@ a {
   margin-bottom: 2em;
 }
 
+.about-us-article-title {
+  margin-inline: auto;
+  padding-inline: .25em;
+}
+
+.about-us-article-txt {
+  margin-top: 1.5em;
+  margin-inline: auto;
+  padding-inline: .75em
+}
+
 .about-us-btn {
   display: block;
   margin-left: auto;
   margin-top: 1.5em;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .about-us-btn:hover,
@@ -586,6 +594,10 @@ a {
     padding: 2em;
     max-width: 450px;
     box-shadow: 40px 40px #ffffff;
+  }
+
+  .about-us-btn {
+    margin-right: 10px;
   }
 
   .about-us-img {
