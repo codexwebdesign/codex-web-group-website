@@ -562,6 +562,10 @@ a {
   align-items: center;
 }
 
+.get-started-right-list {
+  margin-top: -7px;
+}
+
 .get-started-btn {
   display: inline-block;
   border: 2px solid black;
@@ -801,6 +805,10 @@ a {
   max-width: 50%;
   max-height: 400px;
   margin-block: auto;
+}
+
+.get-started-right-list {
+  margin-top: initial;
 }
 
 }
