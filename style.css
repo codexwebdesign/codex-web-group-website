@@ -121,6 +121,10 @@ a {
   font-weight: 400;
 }
 
+.about-us-splash-slogan {
+  margin-top: .5em;
+}
+
 .splash-btn {
   font-size: 1.5rem;
 }
@@ -228,6 +232,39 @@ a {
 
 .footer-logo {
   font-size: 1.7rem;
+}
+
+/* ---- services.html ---- */
+
+/* services-page */
+
+.services-page-get-started {
+  color: #000000e8;
+}
+
+.get-started-title {
+  font-size: 2rem;
+}
+
+.get-started-sub-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.get-started-txt {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.get-started-list-txt {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.get-started-btn {
+  color: black;
+  font-size: 1.25rem;
 }
 
 
@@ -482,6 +519,62 @@ a {
   gap: 1em;
 }
 
+/* ---- services.html ---- */
+
+/* services-page */
+
+.services-page-get-started {
+  background-image: url(./img/services-backgound.jpg);
+  background-color: #c0c0c0;
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center;
+  padding: 3em 1em;
+}
+
+.get-started-container {
+  flex-direction: column;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: #ffffff59;
+  box-shadow: 1px 1px 10px #0000002d;
+  padding: 1.5em;
+  border-radius: 5px;
+}
+
+.get-started-sub-title {
+  margin-block: .5em .75em;
+}
+
+.get-started-list-container {
+  flex-direction: column;
+  margin-block: 1.5em;
+}
+
+.list-container {
+  margin-block: .5em;
+  margin-left: 1em;
+  gap: .5em;
+  align-items: center;
+}
+
+.get-started-btn {
+  display: inline-block;
+  border: 1px solid black;
+  padding: .5em 1.5em;
+  margin-bottom: 1.5em;
+  gap: 1em;
+  background-color: #ffffff;
+}
+
+.get-started-img {
+  max-width: 100%;
+  margin-inline: auto;
+  display: block;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px #00000060;
+}
+
 
 
 /* ======== media-queries ======== */
@@ -679,7 +772,6 @@ a {
   }
 
 }
-
 
 
 
