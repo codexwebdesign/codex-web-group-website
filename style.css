@@ -529,14 +529,14 @@ a {
   background-blend-mode: screen;
   background-size: cover;
   background-position: center;
-  padding: 3em 1em;
+  padding: 4em 1em;
 }
 
 .get-started-container {
   flex-direction: column;
   max-width: 1200px;
   margin-inline: auto;
-  background-color: #ffffff59;
+  background-color: #ffffff75;
   box-shadow: 1px 1px 10px #0000002d;
   padding: 1.5em;
   border-radius: 5px;
@@ -551,6 +551,10 @@ a {
   margin-block: 1.5em;
 }
 
+.get-started-txt {
+  max-width: 500px;
+}
+
 .list-container {
   margin-block: .5em;
   margin-left: 1em;
@@ -560,16 +564,23 @@ a {
 
 .get-started-btn {
   display: inline-block;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: .5em 1.5em;
   margin-bottom: 1.5em;
   gap: 1em;
   background-color: #ffffff;
+  transition: .5s;
+}
+
+.get-started-btn:focus,
+.get-started-btn:hover {
+  background-color: #d1d1d12d;
 }
 
 .get-started-img {
   max-width: 100%;
   margin-inline: auto;
+  margin-block: 2em;
   display: block;
   border-radius: 3px;
   box-shadow: 1px 1px 20px #00000060;
@@ -627,6 +638,9 @@ a {
   .about-us-sub-title {
     font-size: 2rem;
   }
+
+/* ---- services.html ---- */
+
 
 
 /* ======== style ======== */
@@ -769,6 +783,32 @@ a {
     justify-content: space-between;
     padding-inline: 2em;
     align-content: center;
+  }
+
+/* ---- services.html ---- */
+
+.get-started-container {
+  flex-direction: row;
+  gap: 2em;
+}
+
+.get-started-content {
+  max-width: 50%;
+  padding: 2em;
+}
+
+.get-started-img {
+  max-width: 50%;
+  max-height: 400px;
+  margin-block: auto;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+  .get-started-list-container {
+  flex-direction: row;
   }
 
 }
