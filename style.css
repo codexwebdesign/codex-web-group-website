@@ -300,6 +300,22 @@ a {
   list-style: disc;
 }
 
+/* ---- about.html ---- */
+
+/* about-us-section */
+
+.about-page-about-section {
+  color: #000000d5;
+}
+
+.about-page-about-content-title {
+  font-weight: 400;
+}
+
+.about-page-about-content-sub-title {
+  line-height: 1.8;
+}
+
 
 /* ======== style ======== */
 
@@ -635,6 +651,8 @@ a {
 
 .recent-projects-section-txt {
   margin-block: 1.8em 2em;
+  max-width: 650px;
+  margin-inline: auto;
 }
 
 .recent-projects-container {
@@ -680,6 +698,41 @@ a {
 .comment-owner {
   display: inline-block;
   margin-top: 1em;
+}
+
+/* ---- about.html ---- */
+
+/* about-section */
+
+.about-page-about-section {
+  background-image: url(./img/about-us-about-us-background.webp);
+  padding: 4em 1em;
+}
+
+.about-page-about-section-container {
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.about-page-about-section-img {
+  width: 100%;
+  max-width: 600px;
+  max-height: 100%;
+  margin-inline: auto;
+}
+
+.about-page-about-section-content-container {
+  order: -1;
+  padding: 1em;
+}
+
+.about-page-about-content-sub-title {
+  margin-block: .4em 1.1em;
+  max-width: 300px;
+}
+
+.about-page-about-content-txt {
+  margin-bottom: 1em;
 }
 
 
@@ -742,6 +795,12 @@ a {
 
   .recent-projects-section-sub-title {
     font-size: 2rem;
+  }
+
+/* ---- about.html ---- */
+
+  .about-page-about-content-sub-title {
+    font-size: 1.5rem;
   }
 
 /* ======== style ======== */
@@ -924,6 +983,8 @@ a {
     margin-top: -1.6em;
   }
 
+
+
   }
 
 
@@ -938,6 +999,11 @@ a {
     flex-direction: row;
     max-width: 1200px;
     margin-inline: auto;
+  }
+
+  .recent-projects-content-container {
+    width: 50%;
+    margin-left: 1em;
   }
 
   .recent-projects-img {
@@ -972,6 +1038,34 @@ a {
 
   .recent-projects-comment {
     margin-top: 5em;
+  }
+  
+/* ---- about.html ---- */
+
+  .about-page-about-section-container {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .about-page-about-section-container {
+    flex-direction: row;
+  }
+
+  .about-page-about-section-img {
+    max-width: 400px;
+    order: -2;
+    object-fit: cover;
+  }
+
+  .about-page-about-content-sub-title {
+    max-width: 500px;
+    margin-block: .25em .75em;
+  }
+
+  .about-page-about-section-content-container {
+    width: 55%;
+    margin-right: auto;
+    padding-top: 2em;
   }
 
   }
