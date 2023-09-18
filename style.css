@@ -484,7 +484,7 @@ a {
 .about-us-article-txt {
   margin-top: 1.5em;
   margin-inline: auto;
-  padding-inline: .75em
+  padding-inline: .3em
 }
 
 .about-us-btn {
@@ -638,6 +638,7 @@ a {
 }
 
 .recent-projects-container {
+  flex-direction: column;
   background-color: #222327;
   margin-bottom: 2em;
 }
@@ -651,12 +652,29 @@ a {
   margin-block: 1.2em 2.5em;
 }
 
+.recent-projects-list-container {
+  flex-direction: column;
+}
+
+.recent-projects-right-list {
+  margin-top: -10px;
+}
+
 .recent-projects-list {
   margin-block: .75em;
 }
 
 .recent-projects-img {
-  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 700px;
+  max-height: 100%;
+  box-shadow: 1px 1px 20px #000000c0;
+}
+
+.desktop-comment {
+  display: none;
 }
 
 .comment-owner {
@@ -718,7 +736,13 @@ a {
 
 /* ---- services.html ---- */
 
+  .recent-projects-section-title {
+    font-size: 5rem;
+  }
 
+  .recent-projects-section-sub-title {
+    font-size: 2rem;
+  }
 
 /* ======== style ======== */
 
@@ -864,36 +888,93 @@ a {
 
 /* ---- services.html ---- */
 
-.get-started-container {
-  flex-direction: row;
-  gap: 2em;
-}
-
-.get-started-content {
-  max-width: 50%;
-  padding: 2em;
-}
-
-.get-started-img {
-  max-width: 50%;
-  max-height: 400px;
-  margin-block: auto;
-}
-
-.get-started-right-list {
-  margin-top: initial;
-}
-
-}
-
-@media (min-width: 1000px) {
-
-  .get-started-list-container {
-  flex-direction: row;
+  .get-started-container {
+    flex-direction: row;
+    gap: 2em;
   }
 
-}
+  .get-started-content {
+    max-width: 50%;
+    padding: 2em;
+  }
 
+  .get-started-img {
+    max-width: 50%;
+    max-height: 400px;
+    margin-block: auto;
+  }
+
+  .get-started-right-list {
+    margin-top: initial;
+  }
+
+/* recent-projects */
+
+  .recent-projects-list-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .recent-projects-right-list {
+    margin-top: initial;
+  }
+
+  .recent-projects-section-sub-title {
+    margin-top: -1.6em;
+  }
+
+  }
+
+
+
+  @media (min-width: 1000px) {
+
+  .get-started-list-container {
+    flex-direction: row;
+  }
+
+  .recent-projects-container {
+    flex-direction: row;
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .recent-projects-img {
+    max-width: 500px;
+    margin: 2em;
+  }
+
+  .desktop-comment {
+    display: block;
+  }
+
+  .mobile-comment {
+    display: none;
+  }
+
+  .recent-projects-list-container {
+    flex-direction: column;
+    gap: initial;
+  }
+
+  .recent-projects-right-list {
+    margin-top: -10px;
+  }
+
+  .recent-projects-comment {
+    padding: initial;
+  }
+
+  .recent-projects-title {
+    margin-top: 2em;
+  }
+
+  .recent-projects-comment {
+    margin-top: 5em;
+  }
+
+  }
 
 
 
