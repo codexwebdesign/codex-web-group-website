@@ -803,7 +803,8 @@ a {
   padding-block: 3em 1em;
 }
 
-.contact-form-txt {
+.contact-form-txt,
+.schedule-txt {
   margin-block: .75em 2em;
 }
 
@@ -852,12 +853,30 @@ a {
 }
 
 .calendly-inline-widget {
-  height: 600px;
+  height: 550px;
 }
 
-input {
+input,
+textarea {
   border-radius: 0;
   -webkit-appearance: none;
+}
+
+.schedule-txt {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.schedule-link {
+  color: #000000;
+  font-weight: 500;
+  border-bottom: 1px solid #000000;
+}
+
+.schedule-link:focus,
+.schedule-link:hover {
+  color: #000000bd;
+  border-bottom: 1px solid #00000088;
 }
 
 /* ======== media-queries ======== */
