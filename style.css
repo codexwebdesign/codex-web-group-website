@@ -853,7 +853,8 @@ a {
 }
 
 .calendly-inline-widget {
-  height: 550px;
+  height: 650px;
+  max-width: 600px;
 }
 
 input,
@@ -1159,9 +1160,8 @@ textarea {
   .calendly-inline-widget {
     display: block;
     width: 100%;
-    height: 600px;
+    height: 650px;
   }
-
 
 }
 
