@@ -195,7 +195,6 @@ a {
 
 .about-us-btn {
   font-size: 1.25rem;
-  text-align: right;
   line-height: 1;
   font-weight: 600;
 }
@@ -555,6 +554,7 @@ a {
   margin-left: auto;
   margin-top: 1.5em;
   margin-right: 25px;
+  width: fit-content
 }
 
 .about-us-btn:hover,
